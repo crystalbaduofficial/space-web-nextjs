@@ -1,0 +1,127 @@
+.navbarMain {
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    z-index: 99999;
+    top: 0px;
+    box-shadow: 0px 4px 12px 0px rgb(0 0 0 / 7%), 0px 2px 4px 0px rgb(0 0 0 / 5%);
+}
+
+.containerNavbar {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerNavbar img {
+    width: 310px;
+    height: 86px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.containerNavbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.containerNavbar ul li {
+    color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    margin: 1.9rem;
+}
+
+.containerNavbar ul li svg {
+    color: white;
+    font-size: 32px;
+}
+
+.containerNavbar ul li:last-child {
+    margin-right: 0px;
+}
+
+@media only screen and (max-width: 1340px) {
+    .containerNavbar ul li {
+        font-size: 11px;
+    }
+
+    .containerNavbar img {
+        width: 200px;
+        height: 50px;
+    }
+}
+
+.mobileList {
+    display: none !important;
+}
+
+@media only screen and (max-width: 860px) {
+    .desktopList {
+        display: none !important;
+    }
+
+    .mobileList {
+        display: inline-block !important;
+    }
+
+    .containerNavbar {
+        height: 100%;
+    }
+
+    .containerNavbar ul li {
+        display: flex;
+    }
+}
+
+
+@media only screen and (max-width: 560px) {
+    .containerNavbar img {
+        width: 200px;
+        height: 40px;
+    }
+}
+
+.fullPagePopup {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 999;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullPagePopup svg {
+    font-size: 40px;
+    top: 15px;
+    right: 15px;
+    position: absolute;
+    color: hsl(221, 51%, 28%);
+}
+
+.fullPagePopup ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 95%;
+}
+
+.fullPagePopup ul li {
+    margin-bottom: 2vw;
+    line-height: 30px;
+    font-size: 1rem;
+    letter-spacing: 0.6px;
+    position: relative;
+    cursor: pointer;
+    color: black;
+}
