@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from "../../styles/Navbar.module.css"
 import Image from 'next/image'
 import logo from "../../public/images/ethewarelogo.png"
@@ -10,8 +10,18 @@ import Link from 'next/link'
 function Navbar() {
     const [menuShow, switchShowMenu] = useState(false)
 
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 100) {
+                document.getElementById("navbarcolorchange").style.backgroundColor = "black"
+            } else {
+                document.getElementById("navbarcolorchange").style.backgroundColor = "transparent"
+            }
+        })
+    }, [])
+
     return (
-        <div className={styles.navbarMain}>
+        <div className={styles.navbarMain} id="navbarcolorchange">
             <div className={styles.containerNavbar}>
                 <Link href="/"><Image src={logo} /></Link>
                 <ul className={styles.desktopList}>

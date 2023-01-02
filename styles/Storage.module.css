@@ -1,0 +1,174 @@
+.storageBannerMain {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../public/images/storagefirstsection.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+    position: relative;
+}
+
+.overlayContainer {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.storageBannerMain h1 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    z-index: 9;
+}
+
+.storageBannerMain p {
+    font-size: 18px;
+    line-height: 3.6;
+    letter-spacing: 0.5px;
+    z-index: 9;
+    max-width: 650px;
+    font-weight: 500;
+}
+
+.storageBannerMain button {
+    width: 100%;
+    max-width: 500px;
+    background-color: transparent;
+    border: 1px solid white;
+    z-index: 9;
+    padding: 20px 0px;
+    font-size: 15px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-top: 40px;
+}
+
+.storageBannerMain button:hover {
+    background-color: white;
+    color: black;
+}
+
+.storageSecondSection {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../public/images/storagesecondsection.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+    position: relative;
+}
+
+.storageSecondSection h2 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    z-index: 9;
+    max-width: 750px;
+}
+
+.storageSecondSection p {
+    font-size: 18px;
+    line-height: 3.6;
+    letter-spacing: 0.5px;
+    z-index: 9;
+    max-width: 650px;
+    font-weight: 500;
+}
+
+.storageSecondSection button {
+    width: 100%;
+    max-width: 500px;
+    background-color: transparent;
+    border: 1px solid white;
+    z-index: 9;
+    padding: 20px 0px;
+    font-size: 15px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-top: 40px;
+}
+
+.storageSecondSection button:hover {
+    background-color: white;
+    color: black;
+}
+
+.thirdSecondSection {
+    padding: 20px 0px;
+    padding-bottom: 100px;
+    background-color: black;
+}
+
+.fourthStorageSection {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../public/images/secondsectionhome.png");
+    background-size: contain;
+    background-color: black;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+    position: relative;
+}
+
+.fourthStorageSection h2 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    z-index: 9;
+}
+
+.fourthStorageSection p {
+    font-size: 18px;
+    line-height: 3.6;
+    letter-spacing: 0.5px;
+    z-index: 9;
+    max-width: 650px;
+    font-weight: 500;
+}
+
+.fourthStorageSection button {
+    width: 100%;
+    max-width: 500px;
+    background-color: transparent;
+    border: 1px solid white;
+    z-index: 9;
+    padding: 20px 0px;
+    font-size: 15px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-top: 40px;
+}
+
+.fourthStorageSection button:hover {
+    background-color: white;
+    color: black;
+}

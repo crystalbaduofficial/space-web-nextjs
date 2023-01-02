@@ -308,7 +308,6 @@
 
 .sixthSectionHomePage button:hover {
   background-color: white;
-  border: none;
   color: black;
 }
 
@@ -341,6 +340,90 @@
   margin-top: 30px;
   color: #a3a1a1;
 }
+
+
+.eighthSectionHomePage {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftEighthSectionHp {
+  width: 45%;
+}
+
+.leftEighthSectionHp img {
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+  max-height: 650px;
+}
+
+.rightEighthSectionHp {
+  width: 50%;
+  color: white;
+  padding-right: 50px;
+}
+
+.rightEighthSectionHp h2 {
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #a3a1a1;
+  text-align: center;
+}
+
+.rightEighthSectionHp p:nth-child(2) {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 2.6;
+  color: white;
+  max-width: 530px;
+  margin: 0px auto;
+}
+
+
+.rightEighthSectionHp p:nth-child(3) {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+  color: #a3a1a1;
+  margin-top: 15px;
+}
+
+.buttonReSHp {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonReSHp button {
+  width: 100%;
+  max-width: 250px;
+  background: linear-gradient(103.22deg, #2567ff, #822eff 99.55%);
+  padding: 20px 0px;
+  font-size: 17px;
+  margin-right: 20px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  outline: none;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.buttonReSHp button:nth-child(2) {
+  margin-right: 0px;
+}
+
+.buttonReSHp button:hover {
+  background: linear-gradient(103.22deg, #2e62ff, #4242f4 99.55%);
+}
+
 
 @media only screen and (max-width: 1300px) {
   .mainContentBanner h3 {

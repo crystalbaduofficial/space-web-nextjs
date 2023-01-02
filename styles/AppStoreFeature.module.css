@@ -1,0 +1,40 @@
+.appStoreContainer {
+    width: 100%;
+    max-width: 1340px;
+    background: linear-gradient(103.22deg, #1b03ef, #2eceff 99.55%);
+    padding: 30px;
+    border-radius: 18px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.appStoreContainer p {
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    margin-bottom: 25px;
+}
+
+.appStoreContainer h3 {
+    font-size: 24px;
+}
+
+.appStoreContainer button {
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #a3a1a1;
+    font-size: 18px;
+    color: white;
+    transition: all .3s ease-in-out;
+    font-weight: 600;
+}
+
+
+.appStoreContainer button:hover {
+    background-color: black;
+}

@@ -1,0 +1,188 @@
+.firstSectionSatellite {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../public/images/secondsectionhome.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+    position: relative;
+}
+
+.overlayContainer {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.firstSectionSatellite h1 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    z-index: 9;
+    max-width: 900px;
+}
+
+.firstSectionSatellite p {
+    font-size: 21px;
+    line-height: 3.6;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+    z-index: 9;
+    max-width: 750px;
+    font-weight: 500;
+}
+
+.firstSectionSatellite button {
+    width: 100%;
+    max-width: 500px;
+    background-color: transparent;
+    border: 1px solid white;
+    z-index: 9;
+    padding: 30px 0px;
+    font-size: 17px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-top: 40px;
+}
+
+.firstSectionSatellite button:hover {
+    background-color: white;
+    color: black;
+}
+
+.secondSectionSatellite {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../public/images/storagesecondsection.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+    position: relative;
+}
+
+.secondSectionSatellite h2 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    z-index: 9;
+    max-width: 900px;
+}
+
+.secondSectionSatellite p {
+    font-size: 21px;
+    line-height: 3.6;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    z-index: 9;
+    max-width: 750px;
+    font-weight: 500;
+}
+
+.secondSectionSatellite h4 {
+    font-weight: 900;
+    font-size: 36px;
+    max-width: 900px;
+    margin-top: 50px;
+}
+
+.secondSectionSatellite button {
+    width: 100%;
+    max-width: 500px;
+    background-color: transparent;
+    border: 1px solid white;
+    z-index: 9;
+    padding: 30px 0px;
+    font-size: 17px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-top: 40px;
+}
+
+.secondSectionSatellite button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.thirdSectionSatellite {
+    width: 100%;
+    height: 2000px;
+    background-image: url("../public/images/satellitethirdsection.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+    position: relative;
+}
+
+.thirdSectionSatellite h2 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    z-index: 9;
+    max-width: 900px;
+}
+
+.thirdSectionSatellite p {
+    font-size: 21px;
+    line-height: 3.6;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    z-index: 9;
+    max-width: 750px;
+    font-weight: 500;
+}
+
+
+.thirdSectionSatellite button {
+    width: 100%;
+    max-width: 500px;
+    background-color: transparent;
+    border: 1px solid white;
+    z-index: 9;
+    padding: 30px 0px;
+    font-size: 17px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-top: 40px;
+}
+
+.thirdSectionSatellite button:hover {
+    background-color: white;
+    color: black;
+}
+
+.lastSectionSatellite {
+    padding: 70px 0px;
+    background-color: black;
+}

@@ -91,6 +91,20 @@ export default function Home() {
           <p>- Allen B. from BAE Systems | Dubai, UAE</p>
         </div>
       </div>
+      <div className={styles.eighthSectionHomePage}>
+        <div className={styles.leftEighthSectionHp}>
+          <Image src={thirdSectionImage} alt="thirdsectionimage" />
+        </div>
+        <div className={styles.rightEighthSectionHp}>
+          <h2>MANAGE ETHEWARE SPACE ON ANY DEVICE</h2>
+          <p>The Etheware Space apps allow you to upload and backup files to your cloud, access the Etheware App Store for 250+ Apps and Games, change settings, get updates, contact support, and view real-time performance metrics such as download speed, latency, and uptime.</p>
+          <p>Download your space app on any device for use anywhere, anytime.</p>
+          <div className={styles.buttonReSHp}>
+            <button>Sign Up to Beta Test</button>
+            <button>Learn More about Space</button>
+          </div>
+        </div>
+      </div>
 
     </div>
   )
