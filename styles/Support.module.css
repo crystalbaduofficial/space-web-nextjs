@@ -1,0 +1,141 @@
+.firstSectionSupport {
+    width: 100%;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../public/images/supportfirstsection.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.firstSectionSupport h2 {
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.firstSectionSupport p {
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.secondSectionSupport {
+    padding: 30px 0px;
+    background-color: black;
+}
+
+.containerSectionSupport {
+    width: 100%;
+    max-width: 1480px;
+    margin: 0px auto;
+    color: white;
+}
+
+.containerSectionSupport h2 {
+    font-size: 36px;
+}
+
+.innerContainerSectionSupport {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+.leftIconSecSup {
+    width: 50%;
+    padding-right: 30px;
+    flex-shrink: 0;
+}
+
+.boxContainersMain {
+    width: 100%;
+    display: flex;
+    margin-bottom: 35px;
+    justify-content: space-between;
+}
+
+.boxContainersMainInner {
+    width: 46%;
+    padding: 20px;
+    background-color: #132347;
+    border-radius: 5px;
+    border-bottom: 1px solid #7865ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boxContainersMainInner p:nth-child(1) {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.boxContainersMainInner p {
+    margin-bottom: 10px;
+}
+
+.boxContainersMainInner p:last-child {
+    margin-bottom: 0px;
+}
+
+.imageLeftBoxContainer {
+    background: #132347;
+    padding: 20px;
+    border-radius: 5px;
+    border-bottom: 1px solid #7865ff;
+    margin-bottom: 35px;
+}
+
+.imageLeftBoxContainer img {
+    width: 100%;
+    height: 670px;
+}
+
+.rightIconSecSup {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 6px;
+    background-color: #132347;
+    align-items: flex-start;
+}
+
+.rightIconSecSup input,
+.rightIconSecSup textarea {
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.rightIconSecSup textarea {
+    resize: none;
+    min-height: 240px;
+}
+
+.rightIconSecSup button {
+    margin-top: 15px;
+    padding: 7px 15px;
+    font-size: .9rem;
+    background: #7865ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.rightIconSecSup button:hover {
+    background-color: black;
+}

@@ -1,0 +1,124 @@
+.firstSectionTechnology {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url("../public/images/fifthsectionhome.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding-left: 60px;
+}
+
+.firstSectionTechnology h2 {
+    color: #25a2dc;
+    max-width: 600px;
+    font-size: 50px;
+}
+
+.firstSectionTechnology p {
+    line-height: 3.8;
+    max-width: 630px;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+
+.firstSectionTechnology button {
+    width: 100%;
+    max-width: 500px;
+    background: linear-gradient(103.22deg, #2567ff, #822eff 99.55%);
+    padding: 30px 0px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    outline: none;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.firstSectionTechnology button:hover {
+    background: linear-gradient(103.22deg, #2e62ff, #4242f4 99.55%);
+}
+
+.secondSectionTechnology {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 70px 0px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.secondSectionTechnology h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.secondSectionTechnology p {
+    font-size: 20px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    line-height: 2;
+    max-width: 90%;
+}
+
+.secondSectionTechnology img {
+    max-width: 100%;
+}
+
+.thirdSectionTechnology {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../public/images/sixthsectionhome.jpeg");
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+}
+
+.thirdSectionTechnology h2 {
+    font-size: 50px;
+    max-width: 840px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.thirdSectionTechnology p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    width: 760px;
+    line-height: 3;
+    margin-bottom: 70px;
+}
+
+.thirdSectionTechnology button {
+    width: 100%;
+    max-width: 500px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 20px 0px;
+    font-size: 15px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.thirdSectionTechnology button:hover {
+    background-color: white;
+    color: black;
+}

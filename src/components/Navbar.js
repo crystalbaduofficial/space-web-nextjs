@@ -25,11 +25,11 @@ function Navbar() {
             <div className={styles.containerNavbar}>
                 <Link href="/"><Image src={logo} /></Link>
                 <ul className={styles.desktopList}>
-                    <li><Link href="/take-me-to-church">Storage</Link></li>
-                    <li><Link href="/about">Satellite Internet</Link></li>
-                    <li><Link href="/get-involved">Technology</Link></li>
-                    <li><Link href="/giving-back">Supported Locations</Link></li>
-                    <li><Link href="/prayer-requests">Support</Link></li>
+                    <li><Link href="/storage">Storage</Link></li>
+                    <li><Link href="/satellite-internet">Satellite Internet</Link></li>
+                    <li><Link href="/technology">Technology</Link></li>
+                    <li><Link href="/supported-locations">Supported Locations</Link></li>
+                    <li><Link href="/support">Support</Link></li>
                 </ul>
                 <ul className={styles.mobileList}>
                     <li>
@@ -44,14 +44,11 @@ function Navbar() {
                     switchShowMenu(false)
                 }} />
                 <ul>
-                    <li><Link href="/take-me-to-church">Take Me to Church</Link></li>
-                    <li><Link href="/about">About Kindred</Link></li>
-                    <li><Link href="/get-involved">How can I Get Involved</Link></li>
-                    <li><Link href="/giving-back">Giving Back</Link></li>
-                    <li><Link href="/prayer-requests">Prayer Requests</Link></li>
-                    <li><Link href="/contact">Contact Us</Link></li>
-                    <li><Link href="https://kindredcommunitycenter.com/">Community Partners</Link></li>
-                    <li><Link href="/about">Meet the Team</Link></li>
+                    <li><Link href="/storage">Storage</Link></li>
+                    <li><Link href="/satellite-internet">Satellite Internet</Link></li>
+                    <li><Link href="/technology">Technology</Link></li>
+                    <li><Link href="/supported-locations">Supported Locations</Link></li>
+                    <li><Link href="/support">Support</Link></li>
                 </ul>
             </div>)}
         </div>
