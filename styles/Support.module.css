@@ -139,3 +139,26 @@
 .rightIconSecSup button:hover {
     background-color: black;
 }
+
+@media only screen and (max-width: 1340px) {
+    .imageLeftBoxContainer img {
+        height: 400px;
+    }
+
+    .boxContainersMainInner {
+        padding: 12px;
+    }
+
+    .boxContainersMainInner p:nth-child(1) {
+        font-size: 16px;
+    }
+
+    .boxContainersMainInner p {
+        font-size: 12px;
+    }
+
+    .rightIconSecSup input,
+    .rightIconSecSup textarea {
+        font-size: 14px;
+    }
+}

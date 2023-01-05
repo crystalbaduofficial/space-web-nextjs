@@ -277,7 +277,6 @@
   padding-left: 40px;
 }
 
-
 .sixthSectionHomePage h2 {
   font-size: 42px;
   font-weight: 800;
@@ -425,7 +424,7 @@
 }
 
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1340px) {
   .mainContentBanner h3 {
     font-size: 15px;
   }
@@ -458,13 +457,116 @@
   }
 
   .leftSecondSectionHp button {
+    padding: 20px 0px;
+    font-size: 18px;
+    max-width: 300px;
+  }
+
+  .rightThirdSectionHp h2 {
+    font-size: 38px;
+  }
+
+  .rightThirdSectionHp p {
+    font-size: 16px;
+  }
+
+  .rightFourthSectionHp img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .leftFourthSectionHp {
+    padding-right: 70px;
+    padding-left: 30px;
+  }
+
+  .leftFourthSectionHp h2 {
+    font-size: 38px;
+  }
+
+  .leftFourthSectionHp p:nth-child(2) {
+    line-height: 2;
+  }
+
+  .leftFourthSectionHp p {
+    font-size: 16px;
+  }
+
+  .rightFifthSectionHp img {
+    width: 450px;
+    height: 550px;
+  }
+
+  .leftFifthSectionHp h3 {
+    font-size: 18px;
+  }
+
+  .leftFifthSectionHp h2 {
+    font-size: 34px;
+  }
+
+  .leftFifthSectionHp p:nth-child(3) {
+    font-size: 13px;
+  }
+
+  .leftFifthSectionHp p:nth-child(4) {
+    line-height: 2.2;
+    font-size: 16px;
+  }
+
+  .leftFifthSectionHp button {
+    max-width: 300px;
+    padding: 20px 0px;
+    font-size: 18px;
+  }
+
+  .sixthSectionHomePage h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+  }
+
+  .sixthSectionHomePage p {
+    line-height: 2.2;
+    margin-bottom: 40px;
+  }
+
+  .sixthSectionHomePage button {
+    max-width: 300px;
+    padding: 20px 0px;
+    font-size: 18px;
+  }
+
+
+  .seventhSectionHomePage h2 {
+    font-size: 32px;
+  }
+
+  .quoteContainerMain {
+    margin-top: 40px;
+  }
+
+  .quoteContainerMain p:nth-child(1) {
+    font-size: 20px;
+  }
+
+  .quoteContainerMain p:nth-child(2) {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+
+  .rightEighthSectionHp p:nth-child(2) {
+    line-height: 2.2;
+  }
+
+  .buttonReSHp button {
     padding: 15px 0px;
     font-size: 13px;
-    max-width: 500px;
+    max-width: 170px;
   }
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 960px) {
 
   .mainContentBanner {
     padding-left: 20px;
@@ -486,6 +588,9 @@
     font-size: 16px;
   }
 
+}
+
+@media only screen and (max-width: 767px) {
   .homePageContainer video {
     width: auto;
     height: 100%;
@@ -493,9 +598,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-}
 
-@media only screen and (max-width: 767px) {
   .leftSecondSectionHp {
     max-width: 100%;
     padding: 30px 0px;

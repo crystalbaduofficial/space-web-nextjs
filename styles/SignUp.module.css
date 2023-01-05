@@ -1,0 +1,89 @@
+.firstSectionSignUp {
+    padding-top: 240px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.containerFirstSectionSignUp {
+    margin: 0px auto;
+    max-width: 1050px;
+}
+
+.containerFirstSectionSignUp h1 {
+    font-size: 100px;
+    font-weight: 700;
+    color: #5749FF;
+}
+
+.containerFirstSectionSignUp p:nth-child(2) {
+    color: gray;
+    margin-top: 15px;
+}
+
+.containerFirstSectionSignUp p:nth-child(3) {
+    font-size: 30px;
+    font-weight: 200px;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.containerFirstSectionSignUp input {
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.getStartedButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.getStartedButton button {
+    background: linear-gradient(103.22deg, #2567ff, #822eff 99.55%);
+    padding: 10px 18px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+    transition: all .3s ease-in-out;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.getStartedButton button:hover {
+    background: linear-gradient(103.22deg, #2e62ff, #4242f4 99.55%);
+}
+
+.textParaBottom {
+    /* font-size: 16px; */
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1340px) {
+    .firstSectionSignUp {
+        padding-top: 150px;
+    }
+
+    .containerFirstSectionSignUp h1 {
+        font-size: 38px;
+    }
+
+    .containerFirstSectionSignUp p:nth-child(3) {
+        font-size: 22px;
+        max-width: 70%;
+        margin: 30px auto;
+    }
+
+    .containerFirstSectionSignUp {
+        max-width: 820px;
+    }
+}

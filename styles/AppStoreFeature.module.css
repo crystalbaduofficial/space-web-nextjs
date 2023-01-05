@@ -38,3 +38,9 @@
 .appStoreContainer button:hover {
     background-color: black;
 }
+
+@media only screen and (max-width: 1340px) {
+    .appStoreContainer {
+        max-width: 1080px;
+    }
+}

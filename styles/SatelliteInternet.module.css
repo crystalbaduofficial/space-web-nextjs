@@ -161,7 +161,6 @@
     font-weight: 500;
 }
 
-
 .thirdSectionSatellite button {
     width: 100%;
     max-width: 500px;
@@ -185,4 +184,72 @@
 .lastSectionSatellite {
     padding: 70px 0px;
     background-color: black;
+}
+
+@media only screen and (max-width: 1340px) {
+
+    .firstSectionSatellite,
+    .secondSectionSatellite,
+    .thirdSectionSatellite {
+        padding-left: 40px;
+    }
+
+    .firstSectionSatellite h1 {
+        font-size: 38px;
+        max-width: 720px;
+    }
+
+    .firstSectionSatellite p {
+        font-size: 16px;
+        line-height: 2.2;
+    }
+
+    .firstSectionSatellite button {
+        max-width: 300px;
+        padding: 20px 0px;
+        font-size: 18px;
+    }
+
+    .secondSectionSatellite h2 {
+        font-size: 38px;
+    }
+
+    .secondSectionSatellite p {
+        font-size: 16px;
+        line-height: 2.2;
+        max-width: 600px;
+    }
+
+    .secondSectionSatellite h4 {
+        font-size: 22px;
+        max-width: 600px;
+        margin-top: 30px;
+    }
+
+    .secondSectionSatellite button {
+        max-width: 300px;
+        padding: 20px 0px;
+        font-size: 18px;
+    }
+
+    .thirdSectionSatellite {
+        height: 1600px;
+    }
+
+    .thirdSectionSatellite h2 {
+        font-size: 38px;
+        max-width: 620px;
+    }
+
+    .thirdSectionSatellite p {
+        font-size: 16px;
+        line-height: 2.2;
+        max-width: 540px;
+    }
+
+    .thirdSectionSatellite button {
+        max-width: 300px;
+        padding: 20px 0px;
+        font-size: 18px;
+    }
 }

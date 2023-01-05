@@ -129,3 +129,44 @@
 .leftSecSupLoc button:hover {
     background: linear-gradient(103.22deg, #2e62ff, #4242f4 99.55%);
 }
+
+@media only screen and (max-width: 1340px) {
+    .firstSectionSupportedLocations h2 {
+        font-size: 38px;
+        max-width: 650px;
+    }
+
+    .firstSectionSupportedLocations p {
+        font-size: 16px;
+        line-height: 2.2;
+        max-width: 500px;
+    }
+
+    .firstSectionSupportedLocations button {
+        max-width: 300px;
+        padding: 20px 0px;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+
+    .leftSecSupLoc {
+        padding-left: 40px;
+    }
+
+    .leftSecSupLoc h2 {
+        font-size: 24px;
+    }
+
+    .leftSecSupLoc p {
+        font-size: 16px;
+        line-height: 2.2;
+        max-width: 70%;
+    }
+
+    .leftSecSupLoc button {
+        border-radius: 4px;
+        max-width: 300px;
+        padding: 20px 0px;
+        font-size: 18px;
+    }
+}

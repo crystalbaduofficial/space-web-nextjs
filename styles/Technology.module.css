@@ -122,3 +122,52 @@
     background-color: white;
     color: black;
 }
+
+@media only screen and (max-width: 1340px) {
+    .firstSectionTechnology {
+        padding-left: 40px;
+    }
+
+    .firstSectionTechnology h2 {
+        font-size: 38px;
+    }
+
+    .firstSectionTechnology p {
+        font-size: 16px;
+        line-height: 2.2;
+    }
+
+    .firstSectionTechnology button {
+        max-width: 300px;
+        padding: 20px 0px;
+        font-size: 18px;
+    }
+
+    .secondSectionTechnology h2 {
+        font-size: 38px;
+    }
+
+    .secondSectionTechnology p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .secondSectionTechnology img {
+        height: 500px;
+    }
+
+    .thirdSectionTechnology h2 {
+        font-size: 32px;
+    }
+
+    .thirdSectionTechnology p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .thirdSectionTechnology button {
+        max-width: 300px;
+        padding: 20px 0px;
+        font-size: 18px;
+    }
+}
