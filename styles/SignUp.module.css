@@ -68,6 +68,12 @@
     margin-bottom: 15px;
 }
 
+.containerFirstSectionSignUp img {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 @media only screen and (max-width: 1340px) {
     .firstSectionSignUp {
         padding-top: 150px;
@@ -85,5 +91,25 @@
 
     .containerFirstSectionSignUp {
         max-width: 820px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .containerFirstSectionSignUp {
+        width: 90%;
+    }
+
+    .containerFirstSectionSignUp h1 {
+        font-size: 24px;
+    }
+
+    .containerFirstSectionSignUp p:nth-child(3) {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .containerFirstSectionSignUp img {
+        height: 300px;
+        margin-top: 30px;
     }
 }

@@ -253,3 +253,64 @@
         font-size: 18px;
     }
 }
+
+@media only screen and (max-width: 767px) {
+    .firstSectionSatellite {
+        padding: 20px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .firstSectionSatellite h1 {
+        font-size: 22px;
+    }
+
+    .firstSectionSatellite p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .firstSectionSatellite button {
+        width: 70%;
+    }
+
+    .secondSectionSatellite {
+        padding: 20px;
+    }
+
+    .secondSectionSatellite h2 {
+        font-size: 22px;
+    }
+
+    .secondSectionSatellite h4 {
+        font-size: 18px;
+    }
+
+    .secondSectionSatellite p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .secondSectionSatellite button {
+        width: 70%;
+    }
+
+    .thirdSectionSatellite {
+        height: 100vh;
+        padding: 20px;
+    }
+
+    .thirdSectionSatellite h2 {
+        font-size: 22px;
+    }
+
+    .thirdSectionSatellite p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .thirdSectionSatellite button {
+        width: 70%;
+    }
+}

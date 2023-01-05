@@ -23,7 +23,7 @@ function Navbar() {
     return (
         <div className={styles.navbarMain} id="navbarcolorchange">
             <div className={styles.containerNavbar}>
-                <Link href="/"><Image src={logo} /></Link>
+                <Link href="/"><Image src={logo} alt="logo" /></Link>
                 <ul className={styles.desktopList}>
                     <li><Link href="/storage">Storage</Link></li>
                     <li><Link href="/satellite-internet">Satellite Internet</Link></li>

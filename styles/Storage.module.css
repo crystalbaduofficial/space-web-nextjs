@@ -226,3 +226,61 @@
         padding-left: 40px;
     }
 }
+
+@media only screen and (max-width: 767px) {
+    .storageBannerMain {
+        padding: 20px;
+    }
+
+    .storageBannerMain h1 {
+        font-size: 22px;
+    }
+
+    .storageBannerMain p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .storageBannerMain button {
+        width: 70%;
+    }
+
+    .storageSecondSection {
+        padding: 20px;
+    }
+
+    .storageSecondSection h2 {
+        font-size: 22px;
+    }
+
+    .storageSecondSection p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .storageSecondSection button {
+        width: 70%;
+    }
+
+    .thirdSecondSection {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    .fourthStorageSection {
+        padding: 20px;
+    }
+
+    .fourthStorageSection h2 {
+        font-size: 22px;
+    }
+
+    .fourthStorageSection p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .fourthStorageSection button {
+        width: 70%;
+    }
+}

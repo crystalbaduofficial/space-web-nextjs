@@ -170,3 +170,54 @@
         font-size: 18px;
     }
 }
+
+@media only screen and (max-width: 767px) {
+    .firstSectionSupportedLocations {
+        padding: 20px;
+    }
+
+    .firstSectionSupportedLocations h2 {
+        font-size: 22px;
+    }
+
+    .firstSectionSupportedLocations p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .firstSectionSupportedLocations button {
+        width: 70%;
+    }
+
+    .secondSectionSupportedLocations {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .leftSecSupLoc, .rightSecSupLoc {
+        width: 100%;
+    }
+
+    .rightSecSupLoc {
+        height: 300px;
+    }
+
+    .leftSecSupLoc {
+        padding: 20px;
+    }
+
+    .leftSecSupLoc h2 {
+        font-size: 22px;
+    }
+
+    .leftSecSupLoc p {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .leftSecSupLoc button {
+        width: 70%;
+        margin-top: 40px;
+    }
+}

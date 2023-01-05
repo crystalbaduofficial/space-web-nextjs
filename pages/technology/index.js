@@ -15,6 +15,7 @@ export default function Technology() {
 
             <Navbar />
             <div className={styles.firstSectionTechnology}>
+                <div className={styles.overlayContainer}></div>
                 <h2>ENGINEERED BY ETHEWARE</h2>
                 <p>Etheware is deploying the world's most sophisticated broadband internet infrastructure, combining its experience in application development, cloud computing, and networking.</p>
                 <button>Learn More</button>
@@ -26,6 +27,7 @@ export default function Technology() {
                 <Image src={secondSectionImage} alt="satellite" />
             </div>
             <div className={styles.thirdSectionTechnology}>
+                <div className={styles.overlayContainer}></div>
                 <h2>THE MOST ADVANCED BROADBAND SATELLITE INTERNET AND CLOUD IN THE WORLD</h2>
                 <p>Etheware has extensive expertise in both space and cloud operations as the world's largest upcoming startup supplying satellite services - and one of the only providers in the world with the capacity to launch rockets on demand.</p>
                 <button>Visit our Site</button>
