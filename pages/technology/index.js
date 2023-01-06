@@ -3,6 +3,7 @@ import Navbar from '../../src/Components/Navbar'
 import styles from "../../styles/Technology.module.css"
 import secondSectionImage from "../../public/images/secondsectiontechnology.png"
 import Image from 'next/image'
+import Footer from '../../src/components/Footer'
 
 export default function Technology() {
     return (
@@ -21,17 +22,18 @@ export default function Technology() {
                 <button>Learn More</button>
             </div>
             <div className={styles.secondSectionTechnology}>
-                <h2>How Etheware Space Works</h2>
-                <p>Most satellite internet services are provided by individual geostationary satellites that circle the Earth at 35,786 kilometers. As a result, the round trip transmission time between the user and the satellite—also known as latency—is significant, making streaming, online gaming, video conferencing, and other high data rate activities almost impossible.</p>
-                <p>Etheware Space beats all the other competition with it's constellation of thousands of satellites that orbit a significantly closer distance to Earth, circling at 550 kilometers, and covering the entire globe. Due to the low orbit, with Etheware satellites, latency is substantially lower—around 10 ms vs 600+ ms.</p>
+                <h2 data-aos="fade-right">How Etheware Space Works</h2>
+                <p data-aos="fade-right">Most satellite internet services are provided by individual geostationary satellites that circle the Earth at 35,786 kilometers. As a result, the round trip transmission time between the user and the satellite—also known as latency—is significant, making streaming, online gaming, video conferencing, and other high data rate activities almost impossible.</p>
+                <p data-aos="fade-right">Etheware Space beats all the other competition with it's constellation of thousands of satellites that orbit a significantly closer distance to Earth, circling at 550 kilometers, and covering the entire globe. Due to the low orbit, with Etheware satellites, latency is substantially lower—around 10 ms vs 600+ ms.</p>
                 <Image src={secondSectionImage} alt="satellite" />
             </div>
             <div className={styles.thirdSectionTechnology}>
                 <div className={styles.overlayContainer}></div>
-                <h2>THE MOST ADVANCED BROADBAND SATELLITE INTERNET AND CLOUD IN THE WORLD</h2>
-                <p>Etheware has extensive expertise in both space and cloud operations as the world's largest upcoming startup supplying satellite services - and one of the only providers in the world with the capacity to launch rockets on demand.</p>
-                <button>Visit our Site</button>
+                <h2 data-aos="fade-right">THE MOST ADVANCED BROADBAND SATELLITE INTERNET AND CLOUD IN THE WORLD</h2>
+                <p data-aos="fade-right">Etheware has extensive expertise in both space and cloud operations as the world's largest upcoming startup supplying satellite services - and one of the only providers in the world with the capacity to launch rockets on demand.</p>
+                <button data-aos="fade-right">Visit our Site</button>
             </div>
+            <Footer />
         </div>
     )
 }

@@ -3,6 +3,7 @@ import Navbar from '../../src/Components/Navbar'
 import styles from "../../styles/SignUp.module.css"
 import Image from 'next/image'
 import imageMain from "../../public/images/ethewarelogomainsignup.png"
+import Footer from '../../src/components/Footer'
 
 export default function SignUp() {
     return (
@@ -31,6 +32,7 @@ export default function SignUp() {
                     <Image src={imageMain} alt="Etheware Logo" />
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

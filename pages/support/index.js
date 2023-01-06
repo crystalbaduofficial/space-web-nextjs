@@ -3,6 +3,7 @@ import Navbar from '../../src/Components/Navbar'
 import styles from "../../styles/Support.module.css"
 import ethewareLogo from "../../public/images/ethewarelogobig.png"
 import Image from 'next/image'
+import Footer from '../../src/components/Footer'
 
 export default function SupportedLocations() {
     return (
@@ -60,6 +61,7 @@ export default function SupportedLocations() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

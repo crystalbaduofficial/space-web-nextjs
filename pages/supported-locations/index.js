@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Navbar from '../../src/Components/Navbar'
 import styles from "../../styles/SupportedLocations.module.css"
 import AppStoreFeatures from '../../src/components/AppStoreFeaturing'
+import Footer from '../../src/components/Footer'
 
 export default function SupportedLocations() {
     return (
@@ -21,9 +22,9 @@ export default function SupportedLocations() {
             </div>
             <div className={styles.secondSectionSupportedLocations}>
                 <div className={styles.leftSecSupLoc}>
-                    <h2>STAY CONNECTED ANYWHERE IN THE WORLD</h2>
-                    <p>Etheware Space is ideal for rural and distant areas. Add as many capabilities as you need to your Etheware account and control them all from a single synchronized account.</p>
-                    <button>Learn More</button>
+                    <h2 data-aos="fade-right">STAY CONNECTED ANYWHERE IN THE WORLD</h2>
+                    <p data-aos="fade-right">Etheware Space is ideal for rural and distant areas. Add as many capabilities as you need to your Etheware account and control them all from a single synchronized account.</p>
+                    <button data-aos="fade-right">Learn More</button>
                 </div>
                 <div className={styles.rightSecSupLoc}>
                 </div>
@@ -31,6 +32,7 @@ export default function SupportedLocations() {
             <div className={styles.lastSectionSupportedLocations}>
                 <AppStoreFeatures />
             </div>
+            <Footer />
         </div>
     )
 }
